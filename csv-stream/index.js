@@ -28,4 +28,4 @@ fs.createReadStream("csv-stream/kepler_data.csv")
   })
   .on("error", (err) => console.log(err)); // in case we accur an error
 
-// we could keep going using on depending on how much event emiter we have in our stream
+// we could keep going using on depending on how much event emiter we need to use in our stream
